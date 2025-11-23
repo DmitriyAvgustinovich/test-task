@@ -1,1 +1,6 @@
-# test-task
+## Запуск
+
+```bash
+npm i
+npm run dev
+```
