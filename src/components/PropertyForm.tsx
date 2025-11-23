@@ -33,7 +33,6 @@ const initialValues: ExtendedFormValues = {
 };
 
 export const PropertyForm = () => {
-  // todo: позже сделать отправку на сервер
   const handleSubmit = (values: ExtendedFormValues) => {
     console.log("Form submitted:", values);
     alert("Форма успешно отправлена! Проверьте консоль для просмотра данных.");
